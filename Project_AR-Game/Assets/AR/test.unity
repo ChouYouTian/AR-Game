@@ -1358,18 +1358,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1732839896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: MakeScreen
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1732839896
@@ -1416,8 +1405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182bf75922dab8543aafd97ca0c741de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outShader: {fileID: 4800000, guid: 947e68fde1a25bf45a38150069edf192, type: 3}
-  inputTex: {fileID: 0}
   Rendercamera: {fileID: 29524716}
   FileCounter: 0
 --- !u!1 &2013148177
