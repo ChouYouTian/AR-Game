@@ -10,15 +10,14 @@ public class SaveToPng : MonoBehaviour {
     // Use this for initialization
     public Camera Rendercamera;
     
-    public int FileCounter = 3;
+    private int FileCounter;
 
     // Use this for initialization
     void Start()
     {
         Button btn = this.GetComponent<Button>();
         btn.onClick.AddListener(buttonClicked);
-        System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(Application.dataPath +"/ModelTexture");
-        FileCounter = dir.GetFiles().Length;
+        
     }
 
     // Update is called once per frame
@@ -29,7 +28,10 @@ public class SaveToPng : MonoBehaviour {
 
     public void buttonClicked()
     {
-
+        System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(Application.dataPath +"/ModelTexture");
+        FileCounter = dir.GetFiles().Length;
+        
+        FileCounter = FileCounter / 2;
         Debug.Log("Save PNG to "+Application.dataPath + "/ModelTexture/");
         Debug.Log("File numbers"+FileCounter);
         save();
@@ -54,8 +56,8 @@ public class SaveToPng : MonoBehaviour {
 
         var Bytes = Image.EncodeToPNG();
         Destroy(Image);
-        FileCounter++;
-        File.WriteAllBytes(Application.dataPath+"/ModelTexture/Texture_"+FileCounter+".png", Bytes);
+        //FileCounter++;
+        File.WriteAllBytes(Application.dataPath+"/ModelTexture/Texture_"+ FileCounter +".png", Bytes);
         AssetDatabase.Refresh();
         
     }

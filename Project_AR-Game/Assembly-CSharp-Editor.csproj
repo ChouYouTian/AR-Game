@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AR\Region_Capture\Scripts\Editor\RegionCaptureEditor.cs" />
+     <Compile Include="Assets\Editor\SaveToPng.cs" />
      <Compile Include="Assets\game\_Complete-Game\MobileInput\Scripts\Editor\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\game\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
      <Compile Include="Assets\game\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />

@@ -60,7 +60,6 @@
      <Compile Include="Assets\AR\Region_Capture\Scripts\RenderTextureCamera.cs" />
      <Compile Include="Assets\AR\Region_Capture\Scripts\SetOrthographicSize.cs" />
      <Compile Include="Assets\AR\Region_Capture\Scripts\VuforiaDeviceOrientation.cs" />
-     <Compile Include="Assets\AR\SaveToPng.cs" />
      <Compile Include="Assets\game\_Complete-Game\MobileInput\Scripts\CrossPlatformInputManager.cs" />
      <Compile Include="Assets\game\_Complete-Game\MobileInput\Scripts\Joystick.cs" />
      <Compile Include="Assets\game\_Complete-Game\MobileInput\Scripts\MobileControlRig.cs" />
@@ -143,6 +142,8 @@
      <Compile Include="Assets\game\SimpleJoystick\Scripts\JoystickMove.cs" />
      <Compile Include="Assets\game\SimpleJoystick\Scripts\JoystickRotate.cs" />
      <Compile Include="Assets\game\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\GameData.cs" />
+     <Compile Include="Assets\ModelManager.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
      <None Include="Assets\game\PostProcessing\Resources\Shaders\DepthOfField.shader" />

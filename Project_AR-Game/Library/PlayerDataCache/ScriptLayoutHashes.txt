@@ -215,7 +215,6 @@ b54884b7d3712b859f046cf7f552e6d5 Assembly-CSharp.dll:CompleteProject.EnemyHealth
 5a439470f8951bac228262edbf83153a Assembly-CSharp.dll:.RandomParticlePoint
 8aea00d88dbb0e8c4858836323d3004d Assembly-CSharp.dll:.VuforiaDeviceOrientation
 5f163ad6e4077ab9a7d4f53a040cb21a Assembly-CSharp.dll:.RC_Get_Texture
-53e3bf60c7cfac10fdf594fec0d4d4af Assembly-CSharp.dll:.SaveToPng
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -336,3 +335,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 c2b418d6efc7fb5766b902c264f3fb4f Assembly-CSharp.dll:CompleteProject.EnemyManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ModelManager
